@@ -57,7 +57,7 @@
             label1.ForeColor = Color.LimeGreen;
             label1.Location = new Point(270, 27);
             label1.Name = "label1";
-            label1.Size = new Size(405, 25);
+            label1.Size = new Size(516, 32);
             label1.TabIndex = 0;
             label1.Text = "--------------QUẢN LÝ MÓN ĂN--------------";
             // 
@@ -69,7 +69,7 @@
             label2.ForeColor = SystemColors.ControlLightLight;
             label2.Location = new Point(74, 112);
             label2.Name = "label2";
-            label2.Size = new Size(86, 21);
+            label2.Size = new Size(108, 26);
             label2.TabIndex = 1;
             label2.Text = "Danh mục";
             // 
@@ -78,7 +78,7 @@
             comboBoxdanhmuc.FormattingEnabled = true;
             comboBoxdanhmuc.Location = new Point(216, 111);
             comboBoxdanhmuc.Name = "comboBoxdanhmuc";
-            comboBoxdanhmuc.Size = new Size(702, 24);
+            comboBoxdanhmuc.Size = new Size(702, 27);
             comboBoxdanhmuc.TabIndex = 2;
             // 
             // label3
@@ -89,7 +89,7 @@
             label3.ForeColor = SystemColors.ControlLightLight;
             label3.Location = new Point(74, 193);
             label3.Name = "label3";
-            label3.Size = new Size(99, 21);
+            label3.Size = new Size(124, 26);
             label3.TabIndex = 3;
             label3.Text = "Tên món ăn";
             // 
@@ -97,14 +97,14 @@
             // 
             tenmonan.Location = new Point(216, 192);
             tenmonan.Name = "tenmonan";
-            tenmonan.Size = new Size(283, 23);
+            tenmonan.Size = new Size(283, 27);
             tenmonan.TabIndex = 4;
             // 
             // giamonan
             // 
             giamonan.Location = new Point(635, 192);
             giamonan.Name = "giamonan";
-            giamonan.Size = new Size(283, 23);
+            giamonan.Size = new Size(283, 27);
             giamonan.TabIndex = 6;
             // 
             // label4
@@ -115,7 +115,7 @@
             label4.ForeColor = SystemColors.ControlLightLight;
             label4.Location = new Point(576, 193);
             label4.Name = "label4";
-            label4.Size = new Size(36, 21);
+            label4.Size = new Size(44, 26);
             label4.TabIndex = 5;
             label4.Text = "Giá";
             label4.Click += label4_Click;
@@ -171,7 +171,7 @@
             dataGridView.Location = new Point(55, 331);
             dataGridView.Name = "dataGridView";
             dataGridView.RowHeadersWidth = 51;
-            dataGridView.Size = new Size(956, 263);
+            dataGridView.Size = new Size(956, 218);
             dataGridView.TabIndex = 22;
             dataGridView.CellContentClick += dataGridView_CellContentClick;
             // 
@@ -212,7 +212,7 @@
             // 
             // QuanLyMonAn
             // 
-            AutoScaleDimensions = new SizeF(8F, 16F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;

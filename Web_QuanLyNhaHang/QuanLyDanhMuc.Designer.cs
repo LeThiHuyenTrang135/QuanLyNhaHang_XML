@@ -55,7 +55,7 @@
             label1.Location = new Point(283, 28);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(409, 25);
+            label1.Size = new Size(520, 32);
             label1.TabIndex = 0;
             label1.Text = "------------QUẢN LÝ DANH MỤC------------";
             // 
@@ -67,15 +67,15 @@
             label2.ForeColor = SystemColors.ControlLightLight;
             label2.Location = new Point(50, 106);
             label2.Name = "label2";
-            label2.Size = new Size(117, 21);
+            label2.Size = new Size(146, 26);
             label2.TabIndex = 1;
             label2.Text = "Tên danh mục";
             // 
             // name
             // 
-            name.Location = new Point(254, 104);
+            name.Location = new Point(214, 103);
             name.Name = "name";
-            name.Size = new Size(633, 26);
+            name.Size = new Size(703, 30);
             name.TabIndex = 2;
             // 
             // label3
@@ -86,15 +86,15 @@
             label3.ForeColor = SystemColors.ControlLightLight;
             label3.Location = new Point(50, 174);
             label3.Name = "label3";
-            label3.Size = new Size(54, 21);
+            label3.Size = new Size(65, 26);
             label3.TabIndex = 3;
             label3.Text = "Mô tả";
             // 
             // mota
             // 
-            mota.Location = new Point(254, 175);
+            mota.Location = new Point(214, 174);
             mota.Name = "mota";
-            mota.Size = new Size(633, 131);
+            mota.Size = new Size(703, 116);
             mota.TabIndex = 4;
             mota.Text = "";
             // 
@@ -146,10 +146,10 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(30, 366);
+            dataGridView1.Location = new Point(50, 375);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1020, 231);
+            dataGridView1.Size = new Size(1020, 197);
             dataGridView1.TabIndex = 22;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -183,7 +183,7 @@
             // 
             // QuanLyDanhMuc
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(11F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;

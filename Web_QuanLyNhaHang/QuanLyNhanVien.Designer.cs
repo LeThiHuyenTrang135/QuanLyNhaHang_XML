@@ -47,7 +47,6 @@
             btXoa = new Button();
             btRefresh = new Button();
             dataGridView1 = new DataGridView();
-            dateTimePicker1 = new DateTimePicker();
             Column8 = new DataGridViewTextBoxColumn();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -56,6 +55,7 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             Column7 = new DataGridViewTextBoxColumn();
+            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -237,16 +237,9 @@
             dataGridView1.Location = new Point(40, 364);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1028, 357);
+            dataGridView1.Size = new Size(1028, 254);
             dataGridView1.TabIndex = 18;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(176, 234);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(262, 27);
-            dateTimePicker1.TabIndex = 19;
             // 
             // Column8
             // 
@@ -303,6 +296,13 @@
             Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
             Column7.Width = 125;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(176, 234);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(262, 27);
+            dateTimePicker1.TabIndex = 19;
             // 
             // QuanLyNhanVien
             // 

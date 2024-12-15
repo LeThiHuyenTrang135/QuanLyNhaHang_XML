@@ -40,7 +40,6 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             containerpanel = new Panel();
-            dateTimePicker1 = new DateTimePicker();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -54,10 +53,9 @@
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(2, -2);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(2, -3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(967, 147);
+            panel1.Size = new Size(1184, 196);
             panel1.TabIndex = 0;
             // 
             // panel2
@@ -65,10 +63,9 @@
             panel2.BackColor = SystemColors.ActiveCaption;
             panel2.Controls.Add(menuStrip1);
             panel2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            panel2.Location = new Point(110, 120);
-            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Location = new Point(126, 160);
             panel2.Name = "panel2";
-            panel2.Size = new Size(758, 27);
+            panel2.Size = new Size(866, 36);
             panel2.TabIndex = 2;
             panel2.Paint += panel2_Paint;
             // 
@@ -81,9 +78,9 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { quảnLýNhânViênToolStripMenuItem, quảnLýDanhMụcToolStripMenuItem, quảnLýMónĂnToolStripMenuItem, bánHàngToolStripMenuItem, saoLưuDữLiệuToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Padding = new Padding(6, 3, 0, 3);
             menuStrip1.RightToLeft = RightToLeft.No;
-            menuStrip1.Size = new Size(758, 29);
+            menuStrip1.Size = new Size(866, 36);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             menuStrip1.ItemClicked += menuStrip1_ItemClicked;
@@ -91,35 +88,35 @@
             // quảnLýNhânViênToolStripMenuItem
             // 
             quảnLýNhânViênToolStripMenuItem.Name = "quảnLýNhânViênToolStripMenuItem";
-            quảnLýNhânViênToolStripMenuItem.Size = new Size(155, 25);
+            quảnLýNhânViênToolStripMenuItem.Size = new Size(199, 30);
             quảnLýNhânViênToolStripMenuItem.Text = "Quản lý nhân viên";
             quảnLýNhânViênToolStripMenuItem.Click += quảnLýNhânViênToolStripMenuItem_Click;
             // 
             // quảnLýDanhMụcToolStripMenuItem
             // 
             quảnLýDanhMụcToolStripMenuItem.Name = "quảnLýDanhMụcToolStripMenuItem";
-            quảnLýDanhMụcToolStripMenuItem.Size = new Size(158, 25);
+            quảnLýDanhMụcToolStripMenuItem.Size = new Size(199, 30);
             quảnLýDanhMụcToolStripMenuItem.Text = "Quản lý danh mục";
             quảnLýDanhMụcToolStripMenuItem.Click += quảnLýDanhMụcToolStripMenuItem_Click;
             // 
             // quảnLýMónĂnToolStripMenuItem
             // 
             quảnLýMónĂnToolStripMenuItem.Name = "quảnLýMónĂnToolStripMenuItem";
-            quảnLýMónĂnToolStripMenuItem.Size = new Size(140, 25);
+            quảnLýMónĂnToolStripMenuItem.Size = new Size(177, 30);
             quảnLýMónĂnToolStripMenuItem.Text = "Quản lý món ăn";
             quảnLýMónĂnToolStripMenuItem.Click += quảnLýMónĂnToolStripMenuItem_Click;
             // 
             // bánHàngToolStripMenuItem
             // 
             bánHàngToolStripMenuItem.Name = "bánHàngToolStripMenuItem";
-            bánHàngToolStripMenuItem.Size = new Size(91, 25);
+            bánHàngToolStripMenuItem.Size = new Size(113, 30);
             bánHàngToolStripMenuItem.Text = "Bán hàng";
             bánHàngToolStripMenuItem.Click += bánHàngToolStripMenuItem_Click;
             // 
             // saoLưuDữLiệuToolStripMenuItem
             // 
             saoLưuDữLiệuToolStripMenuItem.Name = "saoLưuDữLiệuToolStripMenuItem";
-            saoLưuDữLiệuToolStripMenuItem.Size = new Size(134, 25);
+            saoLưuDữLiệuToolStripMenuItem.Size = new Size(167, 30);
             saoLưuDữLiệuToolStripMenuItem.Text = "Sao lưu dữ liệu";
             saoLưuDữLiệuToolStripMenuItem.Click += saoLưuDữLiệuToolStripMenuItem_Click;
             // 
@@ -128,9 +125,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(255, 192, 192);
             label1.Font = new Font("Colonna MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(134, 27);
+            label1.Location = new Point(153, 36);
             label1.Name = "label1";
-            label1.Size = new Size(286, 25);
+            label1.Size = new Size(346, 31);
             label1.TabIndex = 0;
             label1.Text = "Nhà hàng TrangVyMinh ";
             // 
@@ -138,39 +135,28 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-34, -34);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(-39, -45);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(200, 200);
+            pictureBox1.Size = new Size(229, 267);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
             // containerpanel
             // 
-            containerpanel.Location = new Point(1, 146);
-            containerpanel.Margin = new Padding(3, 2, 3, 2);
+            containerpanel.Location = new Point(1, 195);
             containerpanel.Name = "containerpanel";
-            containerpanel.Size = new Size(958, 644);
+            containerpanel.Size = new Size(1185, 859);
             containerpanel.TabIndex = 1;
             containerpanel.Paint += containerpanel_Paint;
             // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(418, 0);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 2;
-            // 
             // Home2
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(959, 789);
-            Controls.Add(dateTimePicker1);
+            ClientSize = new Size(1154, 886);
             Controls.Add(containerpanel);
             Controls.Add(panel1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Home2";
             Text = "Home";
             Load += Home_Load;
@@ -197,6 +183,5 @@
         private ToolStripMenuItem bánHàngToolStripMenuItem;
         private ToolStripMenuItem saoLưuDữLiệuToolStripMenuItem;
         private Panel containerpanel;
-        private DateTimePicker dateTimePicker1;
     }
 }

@@ -64,9 +64,9 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
             label1.ForeColor = Color.MediumSpringGreen;
-            label1.Location = new Point(333, 21);
+            label1.Location = new Point(364, 30);
             label1.Name = "label1";
-            label1.Size = new Size(299, 25);
+            label1.Size = new Size(381, 32);
             label1.TabIndex = 0;
             label1.Text = "------------BÁN HÀNG------------";
             // 
@@ -76,9 +76,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 13.8F);
             label2.ForeColor = SystemColors.Control;
-            label2.Location = new Point(23, 69);
+            label2.Location = new Point(26, 92);
             label2.Name = "label2";
-            label2.Size = new Size(100, 21);
+            label2.Size = new Size(123, 26);
             label2.TabIndex = 1;
             label2.Text = "Các món ăn";
             // 
@@ -88,31 +88,37 @@
             datamonan.BackgroundColor = SystemColors.AppWorkspace;
             datamonan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             datamonan.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            datamonan.Location = new Point(23, 99);
+            datamonan.Location = new Point(26, 132);
+            datamonan.Margin = new Padding(3, 4, 3, 4);
             datamonan.Name = "datamonan";
+            datamonan.RowHeadersWidth = 51;
             datamonan.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            datamonan.Size = new Size(500, 150);
+            datamonan.Size = new Size(571, 200);
             datamonan.TabIndex = 2;
             datamonan.CellContentClick += datamonan_CellContentClick;
             // 
             // Column1
             // 
             Column1.HeaderText = "STT";
+            Column1.MinimumWidth = 6;
             Column1.Name = "Column1";
             // 
             // Column2
             // 
             Column2.HeaderText = "Mã món ăn";
+            Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
             // 
             // Column3
             // 
             Column3.HeaderText = "Tên món ăn";
+            Column3.MinimumWidth = 6;
             Column3.Name = "Column3";
             // 
             // Column4
             // 
             Column4.HeaderText = "Giá";
+            Column4.MinimumWidth = 6;
             Column4.Name = "Column4";
             // 
             // label3
@@ -121,9 +127,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Times New Roman", 13.8F);
             label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(555, 99);
+            label3.Location = new Point(695, 132);
             label3.Name = "label3";
-            label3.Size = new Size(103, 21);
+            label3.Size = new Size(130, 26);
             label3.TabIndex = 3;
             label3.Text = "Tên món ăn:";
             // 
@@ -133,9 +139,9 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Times New Roman", 13.8F);
             label4.ForeColor = SystemColors.ControlLightLight;
-            label4.Location = new Point(555, 134);
+            label4.Location = new Point(695, 179);
             label4.Name = "label4";
-            label4.Size = new Size(40, 21);
+            label4.Size = new Size(50, 26);
             label4.TabIndex = 4;
             label4.Text = "Giá:";
             // 
@@ -145,39 +151,43 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Times New Roman", 13.8F);
             label5.ForeColor = SystemColors.ControlLightLight;
-            label5.Location = new Point(555, 172);
+            label5.Location = new Point(695, 229);
             label5.Name = "label5";
-            label5.Size = new Size(82, 21);
+            label5.Size = new Size(102, 26);
             label5.TabIndex = 5;
             label5.Text = "Số lượng:";
             // 
             // name
             // 
-            name.Location = new Point(728, 99);
+            name.Location = new Point(855, 132);
+            name.Margin = new Padding(3, 4, 3, 4);
             name.Name = "name";
-            name.Size = new Size(100, 23);
+            name.Size = new Size(152, 27);
             name.TabIndex = 6;
             // 
             // gia
             // 
-            gia.Location = new Point(728, 135);
+            gia.Location = new Point(855, 180);
+            gia.Margin = new Padding(3, 4, 3, 4);
             gia.Name = "gia";
-            gia.Size = new Size(100, 23);
+            gia.Size = new Size(152, 27);
             gia.TabIndex = 7;
             // 
             // soluong
             // 
-            soluong.Location = new Point(728, 172);
+            soluong.Location = new Point(855, 229);
+            soluong.Margin = new Padding(3, 4, 3, 4);
             soluong.Name = "soluong";
-            soluong.Size = new Size(100, 23);
+            soluong.Size = new Size(152, 27);
             soluong.TabIndex = 8;
             // 
             // button1
             // 
             button1.BackColor = Color.Coral;
-            button1.Location = new Point(555, 227);
+            button1.Location = new Point(695, 303);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(130, 39);
             button1.TabIndex = 9;
             button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = false;
@@ -186,9 +196,10 @@
             // button2
             // 
             button2.BackColor = Color.Coral;
-            button2.Location = new Point(728, 227);
+            button2.Location = new Point(893, 303);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(130, 39);
             button2.TabIndex = 10;
             button2.Text = "Làm mới";
             button2.UseVisualStyleBackColor = false;
@@ -200,9 +211,9 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold);
             label6.ForeColor = Color.MediumSpringGreen;
-            label6.Location = new Point(333, 303);
+            label6.Location = new Point(381, 376);
             label6.Name = "label6";
-            label6.Size = new Size(239, 25);
+            label6.Size = new Size(303, 32);
             label6.TabIndex = 11;
             label6.Text = "DANH SÁCH MÓN ĂN";
             // 
@@ -212,48 +223,57 @@
             datacthd.BackgroundColor = SystemColors.AppWorkspace;
             datacthd.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             datacthd.Columns.AddRange(new DataGridViewColumn[] { Column5, Column6, Column7, Column8, Column9, Column10 });
-            datacthd.Location = new Point(23, 353);
+            datacthd.Location = new Point(26, 442);
+            datacthd.Margin = new Padding(3, 4, 3, 4);
             datacthd.Name = "datacthd";
-            datacthd.Size = new Size(824, 196);
+            datacthd.RowHeadersWidth = 51;
+            datacthd.Size = new Size(997, 163);
             datacthd.TabIndex = 12;
             // 
             // Column5
             // 
             Column5.HeaderText = "STT";
+            Column5.MinimumWidth = 6;
             Column5.Name = "Column5";
             // 
             // Column6
             // 
             Column6.HeaderText = "Mã món ăn";
+            Column6.MinimumWidth = 6;
             Column6.Name = "Column6";
             // 
             // Column7
             // 
             Column7.HeaderText = "Tên món ăn";
+            Column7.MinimumWidth = 6;
             Column7.Name = "Column7";
             // 
             // Column8
             // 
             Column8.HeaderText = "Số lượng";
+            Column8.MinimumWidth = 6;
             Column8.Name = "Column8";
             // 
             // Column9
             // 
             Column9.HeaderText = "Giá";
+            Column9.MinimumWidth = 6;
             Column9.Name = "Column9";
             // 
             // Column10
             // 
             Column10.HeaderText = "Thành tiền";
+            Column10.MinimumWidth = 6;
             Column10.Name = "Column10";
             // 
             // xongdon
             // 
             xongdon.BackColor = Color.Coral;
             xongdon.ForeColor = SystemColors.ControlText;
-            xongdon.Location = new Point(23, 572);
+            xongdon.Location = new Point(45, 638);
+            xongdon.Margin = new Padding(3, 4, 3, 4);
             xongdon.Name = "xongdon";
-            xongdon.Size = new Size(113, 29);
+            xongdon.Size = new Size(129, 39);
             xongdon.TabIndex = 13;
             xongdon.Text = "Hoàn thành đơn";
             xongdon.UseVisualStyleBackColor = false;
@@ -265,19 +285,19 @@
             tongtien.BackColor = Color.Transparent;
             tongtien.Font = new Font("Times New Roman", 13.8F);
             tongtien.ForeColor = SystemColors.ControlLightLight;
-            tongtien.Location = new Point(665, 580);
+            tongtien.Location = new Point(638, 643);
             tongtien.Name = "tongtien";
-            tongtien.Size = new Size(85, 21);
+            tongtien.Size = new Size(107, 26);
             tongtien.TabIndex = 14;
             tongtien.Text = "Tổng tiền:";
             // 
             // BanHang
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(884, 611);
+            ClientSize = new Size(1089, 815);
             Controls.Add(tongtien);
             Controls.Add(xongdon);
             Controls.Add(datacthd);
@@ -293,6 +313,7 @@
             Controls.Add(datamonan);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "BanHang";
             Text = "BanHang";
             Load += BanHang_Load;

@@ -52,7 +52,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.LightSteelBlue;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(329, 121);
             label1.Margin = new Padding(4, 0, 4, 0);
@@ -64,7 +64,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.InactiveCaption;
+            label2.BackColor = Color.Transparent;
             label2.Location = new Point(200, 183);
             label2.Name = "label2";
             label2.Size = new Size(119, 20);
@@ -74,7 +74,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = SystemColors.InactiveCaption;
+            label3.BackColor = Color.Transparent;
             label3.Location = new Point(200, 267);
             label3.Name = "label3";
             label3.Size = new Size(120, 20);

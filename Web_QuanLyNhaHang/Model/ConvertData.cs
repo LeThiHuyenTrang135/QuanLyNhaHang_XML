@@ -12,7 +12,7 @@ namespace Web_QuanLyNhaHang.Model
 
     class ConvertData
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-0DQUS0GF\SQLEXPRESS;Initial Catalog=QuanLyNhaHangTrangVyMinh;Integrated Security=True;Encrypt=False");
+        SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-GR95O5RQ\HUYENTRANG;Initial Catalog=QuanLyNhaHangTrangVyMinh;Integrated Security=True;Encrypt=False");
         public void RestoreData()
         {
             RestoreData("select * from QuanTriVien", "QuanTriVien");

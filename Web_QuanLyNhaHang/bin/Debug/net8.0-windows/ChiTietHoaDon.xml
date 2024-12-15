@@ -12,4 +12,16 @@
     <soluong>1</soluong>
     <maHD>HD00001   </maHD>
   </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00003</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>1</soluong>
+    <maHD>HD00001   </maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00004</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>2</soluong>
+    <maHD>HD00002</maHD>
+  </ChiTietHoaDon>
 </ChiTietHoaDons>
