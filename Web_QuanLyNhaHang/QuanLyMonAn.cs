@@ -70,7 +70,17 @@ namespace Web_QuanLyNhaHang
             }
             LoadBang();
         }
-        private void btadd_Click(object sender, EventArgs e)
+
+
+
+
+
+
+
+
+        
+
+        private void btadd_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -103,7 +113,7 @@ namespace Web_QuanLyNhaHang
             }
         }
 
-        private void btupdate_Click(object sender, EventArgs e)
+        private void btupdate_Click_1(object sender, EventArgs e)
         {
             MonAn dm = new MonAn();
             DanhMucMonAn DMMA = new DanhMucMonAn();
@@ -117,6 +127,7 @@ namespace Web_QuanLyNhaHang
             }
             if (dm.suaThongTin(dataGridView.CurrentRow.Cells[1].Value.ToString(),
                tenmonan.Text, Int32.Parse(giamonan.Text), ma))
+
             {
                 MessageBox.Show("Đã Sửa Thông Tin Thành Công", "Thông Báo");
                 clear();
@@ -126,7 +137,7 @@ namespace Web_QuanLyNhaHang
             LoadBang();
         }
 
-        private void btdelete_Click(object sender, EventArgs e)
+        private void btdelete_Click_1(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("Bạn Có Chắc Chắn Muốn Xóa Không?", "Thông Báo", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
@@ -144,12 +155,12 @@ namespace Web_QuanLyNhaHang
             }
         }
 
-        private void btrefresh_Click(object sender, EventArgs e)
+        private void btrefresh_Click_1(object sender, EventArgs e)
         {
             clear();
         }
 
-        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {

@@ -37,8 +37,8 @@
             quảnLýMónĂnToolStripMenuItem = new ToolStripMenuItem();
             bánHàngToolStripMenuItem = new ToolStripMenuItem();
             saoLưuDữLiệuToolStripMenuItem = new ToolStripMenuItem();
-            pictureBox1 = new PictureBox();
             label1 = new Label();
+            pictureBox1 = new PictureBox();
             containerpanel = new Panel();
             dateTimePicker1 = new DateTimePicker();
             panel1.SuspendLayout();
@@ -123,6 +123,17 @@
             saoLưuDữLiệuToolStripMenuItem.Text = "Sao lưu dữ liệu";
             saoLưuDữLiệuToolStripMenuItem.Click += saoLưuDữLiệuToolStripMenuItem_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(255, 192, 192);
+            label1.Font = new Font("Colonna MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(134, 27);
+            label1.Name = "label1";
+            label1.Size = new Size(286, 25);
+            label1.TabIndex = 0;
+            label1.Text = "Nhà hàng TrangVyMinh ";
+            // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
@@ -135,23 +146,12 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(255, 192, 192);
-            label1.Font = new Font("Colonna MT", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(134, 27);
-            label1.Name = "label1";
-            label1.Size = new Size(286, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Nhà hàng TrangVyMinh ";
-            // 
             // containerpanel
             // 
             containerpanel.Location = new Point(1, 146);
             containerpanel.Margin = new Padding(3, 2, 3, 2);
             containerpanel.Name = "containerpanel";
-            containerpanel.Size = new Size(958, 468);
+            containerpanel.Size = new Size(958, 644);
             containerpanel.TabIndex = 1;
             containerpanel.Paint += containerpanel_Paint;
             // 
@@ -166,7 +166,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(959, 614);
+            ClientSize = new Size(959, 789);
             Controls.Add(dateTimePicker1);
             Controls.Add(containerpanel);
             Controls.Add(panel1);

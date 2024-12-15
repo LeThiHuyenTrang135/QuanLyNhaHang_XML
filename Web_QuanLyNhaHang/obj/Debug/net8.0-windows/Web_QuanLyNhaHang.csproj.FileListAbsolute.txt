@@ -128,3 +128,4 @@ H:\124HKI24_25\124XML\DOANCK_LAST\cuoiky\cuoiky\Web_QuanLyNhaHang\Web_QuanLyNhaH
 H:\124HKI24_25\124XML\DOANCK_LAST\cuoiky\cuoiky\Web_QuanLyNhaHang\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\ref\Web_QuanLyNhaHang.dll
 H:\124HKI24_25\124XML\DOANCK_LAST\cuoiky\cuoiky\Web_QuanLyNhaHang\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.BanHang.resources
 H:\124HKI24_25\124XML\DOANCK_LAST\cuoiky\cuoiky\Web_QuanLyNhaHang\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.SaoLuu.resources
+H:\124HKI24_25\124XML\DOANCK_LAST\cuoiky\cuoiky\Web_QuanLyNhaHang\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.sourcelink.json

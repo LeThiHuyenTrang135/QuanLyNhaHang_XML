@@ -2,7 +2,7 @@
 <MonAns>
   <MonAn>
     <maMA>MA00001   </maMA>
-    <tenMA>Chả Giò Tôm Thịt</tenMA>
+    <tenMA>Chả Giò Tôm Thịt 01</tenMA>
     <gia>20000</gia>
     <maDM>DM00001   </maDM>
   </MonAn>
@@ -73,12 +73,6 @@
     <maDM>DM00003   </maDM>
   </MonAn>
   <MonAn>
-    <maMA>MA00013   </maMA>
-    <tenMA>Gà Nướng Muối Ớt</tenMA>
-    <gia>350000</gia>
-    <maDM>DM00003   </maDM>
-  </MonAn>
-  <MonAn>
     <maMA>MA00014   </maMA>
     <tenMA>Chè Khúc Bạch</tenMA>
     <gia>25000</gia>
@@ -89,5 +83,17 @@
     <tenMA>Bánh Mochi Kem Lạnh</tenMA>
     <gia>35000</gia>
     <maDM>DM00004   </maDM>
+  </MonAn>
+  <MonAn>
+    <maMA>MA00016   </maMA>
+    <tenMA>Chả Giò Tôm Thịt 02</tenMA>
+    <gia>20000</gia>
+    <maDM>DM00001   </maDM>
+  </MonAn>
+  <MonAn>
+    <maMA>MA00017   </maMA>
+    <tenMA>Chả Giò Tôm Thịt 02</tenMA>
+    <gia>20000</gia>
+    <maDM>DM00001   </maDM>
   </MonAn>
 </MonAns>

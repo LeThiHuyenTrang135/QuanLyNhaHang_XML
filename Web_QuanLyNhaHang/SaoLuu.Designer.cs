@@ -94,7 +94,7 @@
             label3.Name = "label3";
             label3.Size = new Size(266, 21);
             label3.TabIndex = 4;
-            label3.Text = "Sao lưu dữ liệu từ XML sang SQL";
+            label3.Text = "Sao lưu dữ liệu từ SQL sang XML";
             // 
             // SaoLuu
             // 
