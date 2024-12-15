@@ -24,4 +24,46 @@
     <soluong>2</soluong>
     <maHD>HD00002</maHD>
   </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00005</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>2</soluong>
+    <maHD>HD00003</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00006</maCT>
+    <maSP>MA00003   </maSP>
+    <soluong>1</soluong>
+    <maHD>HD00003</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00007</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>2</soluong>
+    <maHD>HD00004</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00008</maCT>
+    <maSP>MA00003   </maSP>
+    <soluong>3</soluong>
+    <maHD>HD00004</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00009</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>2</soluong>
+    <maHD>HD00005</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00010</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>2</soluong>
+    <maHD>HD00006</maHD>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <maCT>CT00011</maCT>
+    <maSP>MA00002   </maSP>
+    <soluong>1</soluong>
+    <maHD>HD00007</maHD>
+  </ChiTietHoaDon>
 </ChiTietHoaDons>

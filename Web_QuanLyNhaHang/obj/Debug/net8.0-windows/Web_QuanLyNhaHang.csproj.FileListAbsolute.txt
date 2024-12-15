@@ -196,3 +196,5 @@ D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windo
 D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.pdb
 D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.genruntimeconfig.cache
 D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\ref\Web_QuanLyNhaHang.dll
+D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.LichSuBanHang.resources
+D:\Nam3-ky1\CôngNgheXML\CUOIKY_16_12_4\Web_QuanLyNhaHang\obj\Debug\net8.0-windows\Web_QuanLyNhaHang.InHoaDon.resources

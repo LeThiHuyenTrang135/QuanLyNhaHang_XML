@@ -17,6 +17,7 @@ namespace Web_QuanLyNhaHang
 {
     public partial class BanHang : Form
     {
+        // private LichSuBanHang lichSuBanHangForm;
 
         XMLFile XmlFile = new XMLFile();
         int tt = 0;
@@ -26,6 +27,9 @@ namespace Web_QuanLyNhaHang
         public BanHang()
         {
             InitializeComponent();
+            //this.lichSuBanHangForm = lichSuBanHang;
+            //mahoadon = string.Empty;
+            //mamonan = string.Empty;
         }
 
         void LoadBangMA()
@@ -100,7 +104,7 @@ namespace Web_QuanLyNhaHang
             LoadBangCTHD(mahoadon);
         }
 
-       
+
 
 
 
@@ -151,6 +155,9 @@ namespace Web_QuanLyNhaHang
             LoadBangMA();
             tongtien.Text = "Tổng tiền:";
             tt = 0;
+
+            // Call LoadHoaDon method of LichSuBanHang form
+            //  lichSuBanHangForm.LoadHoaDon(mahoadon);
         }
 
         private void datamonan_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -165,6 +172,11 @@ namespace Web_QuanLyNhaHang
                 }
             }
             catch { }
+        }
+
+        private void datacthd_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

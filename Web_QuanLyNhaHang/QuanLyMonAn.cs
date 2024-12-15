@@ -71,15 +71,6 @@ namespace Web_QuanLyNhaHang
             LoadBang();
         }
 
-
-
-
-
-
-
-
-        
-
         private void btadd_Click_1(object sender, EventArgs e)
         {
             try

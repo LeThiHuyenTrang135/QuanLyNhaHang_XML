@@ -229,6 +229,7 @@
             datacthd.RowHeadersWidth = 51;
             datacthd.Size = new Size(997, 163);
             datacthd.TabIndex = 12;
+            datacthd.CellContentClick += datacthd_CellContentClick;
             // 
             // Column5
             // 

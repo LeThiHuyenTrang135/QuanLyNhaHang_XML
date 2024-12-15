@@ -73,12 +73,25 @@ namespace Web_QuanLyNhaHang
 
         private void bánHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            moFormMenu(new BanHang());
+            // moFormMenu(new BanHang());
+            //LichSuBanHang lichSuBanHang = new LichSuBanHang();
+            //moFormMenu(new BanHang(lichSuBanHang));
         }
 
         private void saoLưuDữLiệuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            moFormMenu(new SaoLuu());   
+            moFormMenu(new SaoLuu());
+        }
+
+        private void đơnHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           // LichSuBanHang lichSuBanHang = new LichSuBanHang();
+            moFormMenu(new BanHang());
+        }
+
+        private void lịchSửĐơnHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            moFormMenu(new LichSuBanHang());
         }
     }
 }

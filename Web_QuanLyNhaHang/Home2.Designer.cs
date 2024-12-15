@@ -36,6 +36,8 @@
             quảnLýDanhMụcToolStripMenuItem = new ToolStripMenuItem();
             quảnLýMónĂnToolStripMenuItem = new ToolStripMenuItem();
             bánHàngToolStripMenuItem = new ToolStripMenuItem();
+            đơnHàngToolStripMenuItem = new ToolStripMenuItem();
+            lịchSửĐơnHàngToolStripMenuItem = new ToolStripMenuItem();
             saoLưuDữLiệuToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -108,10 +110,25 @@
             // 
             // bánHàngToolStripMenuItem
             // 
+            bánHàngToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đơnHàngToolStripMenuItem, lịchSửĐơnHàngToolStripMenuItem });
             bánHàngToolStripMenuItem.Name = "bánHàngToolStripMenuItem";
             bánHàngToolStripMenuItem.Size = new Size(113, 30);
             bánHàngToolStripMenuItem.Text = "Bán hàng";
             bánHàngToolStripMenuItem.Click += bánHàngToolStripMenuItem_Click;
+            // 
+            // đơnHàngToolStripMenuItem
+            // 
+            đơnHàngToolStripMenuItem.Name = "đơnHàngToolStripMenuItem";
+            đơnHàngToolStripMenuItem.Size = new Size(259, 30);
+            đơnHàngToolStripMenuItem.Text = "Đơn hàng";
+            đơnHàngToolStripMenuItem.Click += đơnHàngToolStripMenuItem_Click;
+            // 
+            // lịchSửĐơnHàngToolStripMenuItem
+            // 
+            lịchSửĐơnHàngToolStripMenuItem.Name = "lịchSửĐơnHàngToolStripMenuItem";
+            lịchSửĐơnHàngToolStripMenuItem.Size = new Size(259, 30);
+            lịchSửĐơnHàngToolStripMenuItem.Text = "Lịch sử đơn hàng";
+            lịchSửĐơnHàngToolStripMenuItem.Click += lịchSửĐơnHàngToolStripMenuItem_Click;
             // 
             // saoLưuDữLiệuToolStripMenuItem
             // 
@@ -183,5 +200,7 @@
         private ToolStripMenuItem bánHàngToolStripMenuItem;
         private ToolStripMenuItem saoLưuDữLiệuToolStripMenuItem;
         private Panel containerpanel;
+        private ToolStripMenuItem đơnHàngToolStripMenuItem;
+        private ToolStripMenuItem lịchSửĐơnHàngToolStripMenuItem;
     }
 }
