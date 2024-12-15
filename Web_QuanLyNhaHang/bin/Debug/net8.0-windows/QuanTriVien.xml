@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<QuanTriViens>
+  <QuanTriVien>
+    <maAD>1         </maAD>
+    <tenAD>Admin</tenAD>
+    <tenDN>admin</tenDN>
+    <matkhau>12345</matkhau>
+  </QuanTriVien>
+  <QuanTriVien>
+    <maAD>2         </maAD>
+    <tenAD>Admin</tenAD>
+    <tenDN>admin1</tenDN>
+    <matkhau>12345</matkhau>
+  </QuanTriVien>
+</QuanTriViens>

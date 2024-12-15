@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NhanVienNhaHangs>
+  <NhanVienNhaHang>
+    <maNV>NV00002   </maNV>
+    <tenNV>Trần Như Anh Minh</tenNV>
+    <ngaysinh>12/02/2004</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <diachi>Tây Nguyên</diachi>
+    <email>TranNhuAnhMinh@gmail.com</email>
+    <sdt>0329920177</sdt>
+  </NhanVienNhaHang>
+  <NhanVienNhaHang>
+    <maNV>NV00003   </maNV>
+    <tenNV>Trần Thanh Vỹ</tenNV>
+    <ngaysinh>12/06/2004</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <diachi>Huế</diachi>
+    <email>TranThanhVy@gmail.com</email>
+    <sdt>0456668990</sdt>
+  </NhanVienNhaHang>
+  <NhanVienNhaHang>
+    <maNV>NV00004   </maNV>
+    <tenNV>Lê Thị Huyền Trang 05</tenNV>
+    <ngaysinh>13/05/2004</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <diachi>Quảng Trị</diachi>
+    <email>lethihtrang998876@gmail.com</email>
+    <sdt>0877022761</sdt>
+  </NhanVienNhaHang>
+</NhanVienNhaHangs>

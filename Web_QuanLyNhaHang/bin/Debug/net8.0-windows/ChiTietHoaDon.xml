@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<ChiTietHoaDons>
+  <ChiTietHoaDon>
+    <maCT>CT00001   </maCT>
+    <maMA>MA00001   </maMA>
+    <soluong>3</soluong>
+    <maHD>HD00001   </maHD>
+  </ChiTietHoaDon>
+</ChiTietHoaDons>
