@@ -8,14 +8,8 @@
   </MonAn>
   <MonAn>
     <maMA>MA00002   </maMA>
-    <tenMA>Gỏi Ngó Sen Tôm Thịt</tenMA>
-    <gia>35000</gia>
-    <maDM>DM00001   </maDM>
-  </MonAn>
-  <MonAn>
-    <maMA>MA00003   </maMA>
-    <tenMA>Súp Bắp Gà Xé</tenMA>
-    <gia>50000</gia>
+    <tenMA>Gỏi cá</tenMA>
+    <gia>45000</gia>
     <maDM>DM00001   </maDM>
   </MonAn>
   <MonAn>
@@ -80,7 +74,7 @@
   </MonAn>
   <MonAn>
     <maMA>MA00015   </maMA>
-    <tenMA>Bánh Mochi Kem Lạnh</tenMA>
+    <tenMA>Bánh Mochi </tenMA>
     <gia>35000</gia>
     <maDM>DM00004   </maDM>
   </MonAn>

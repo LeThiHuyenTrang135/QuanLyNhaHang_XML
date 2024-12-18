@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj": {}
+    "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_nhom29\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj": {}
   },
   "projects": {
-    "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj": {
+    "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_nhom29\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj",
+        "projectUniqueName": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_nhom29\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj",
         "projectName": "Web_QuanLyNhaHang",
-        "projectPath": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj",
+        "projectPath": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_nhom29\\Web_QuanLyNhaHang\\Web_QuanLyNhaHang.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_QuanLyNhaHang\\obj\\",
+        "outputPath": "D:\\Nam3-ky1\\CôngNgheXML\\CUOIKY_16_12_4\\Web_nhom29\\Web_QuanLyNhaHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

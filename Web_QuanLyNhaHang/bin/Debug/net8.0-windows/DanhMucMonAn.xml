@@ -8,16 +8,21 @@
   <DanhMucMonAn>
     <maDM>DM00002   </maDM>
     <tenDM>Món Chính</tenDM>
-    <mota>Món chính là trái tim của bữa ăn, tập trung vào sự đa dạng và phong phú trong cách chế biến. Các món ăn được lựa chọn cẩn thận để mang lại hương vị đậm đà, cung cấp dinh dưỡng đầy đủ, và thường được phối hợp với cơm hoặc các loại bánh mì, mì để làm no bụng thực khách.</mota>
+    <mota>Món chính là trái tim của bữa ăn, tập trung vào sự đa dạng và phong phú trong cách chế biến. Các món ăn được lựa chọn cẩn thận để mang lại hương vị đậm đà, cung cấp dinh dưỡng đầy đủ, và thường được phối hợp với cơm hoặc các loại bánh mì, mì để làm no bụng thực khách.Ăn là no, no là nhớ</mota>
   </DanhMucMonAn>
   <DanhMucMonAn>
     <maDM>DM00003   </maDM>
     <tenDM>Món Nướng</tenDM>
-    <mota>Món nướng là sự kết hợp hoàn hảo giữa kỹ thuật chế biến khéo léo và hương vị đặc trưng. Với lớp ngoài giòn thơm, bên trong mềm ngọt, các món ăn trong danh mục này không chỉ hấp dẫn về vị giác mà còn mang lại trải nghiệm thú vị khi thưởng thức. Mùi thơm lan tỏa từ món nướng sẽ làm say đắm bất kỳ ai.</mota>
+    <mota>Món nướng là sự kết hợp hoàn hảo giữa kỹ thuật chế biến khéo léo và hương vị đặc trưng. Với lớp ngoài giòn thơm, bên trong mềm ngọt, các món ăn trong danh mục này không chỉ hấp dẫn về vị giác mà còn mang lại trải nghiệm thú vị khi thưởng thức. Mùi thơm lan tỏa từ món nướng sẽ làm say đắm bất kỳ ai. 10 điểm</mota>
   </DanhMucMonAn>
   <DanhMucMonAn>
     <maDM>DM00004   </maDM>
     <tenDM>Món Tráng Miệng</tenDM>
     <mota>Món tráng miệng là phần kết thúc nhẹ nhàng, ngọt ngào cho bữa ăn. Với sự tinh tế trong cách chế biến, các món ăn trong danh mục này mang đến cảm giác sảng khoái, xoa dịu vị giác, và để lại ấn tượng khó quên. Chúng là lựa chọn lý tưởng để hoàn thiện hành trình ẩm thực của bạn.</mota>
+  </DanhMucMonAn>
+  <DanhMucMonAn>
+    <maDM>DM00005</maDM>
+    <tenDM>Món Phụ</tenDM>
+    <mota>Món phụ ăn lót dạ 10 diểm</mota>
   </DanhMucMonAn>
 </DanhMucMonAns>

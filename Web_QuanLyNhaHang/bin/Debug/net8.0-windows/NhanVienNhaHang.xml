@@ -20,11 +20,29 @@
   </NhanVienNhaHang>
   <NhanVienNhaHang>
     <maNV>NV00004   </maNV>
-    <tenNV>Lê Thị Huyền Trang 04</tenNV>
-    <ngaysinh>13/05/2004</ngaysinh>
+    <tenNV>Lê Thị Huyền Trang 07</tenNV>
+    <ngaysinh>13/01/2004</ngaysinh>
     <gioitinh>Nữ</gioitinh>
     <diachi>Quảng Trị</diachi>
     <email>lethihtrang998877@gmail.com</email>
-    <sdt>0877022760</sdt>
+    <sdt>0877022761</sdt>
+  </NhanVienNhaHang>
+  <NhanVienNhaHang>
+    <maNV>NV00005</maNV>
+    <tenNV>trang</tenNV>
+    <ngaysinh>16/12/2024</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <diachi>quang tri</diachi>
+    <email>TRang@gmail.com</email>
+    <sdt>1231231234</sdt>
+  </NhanVienNhaHang>
+  <NhanVienNhaHang>
+    <maNV>NV00006</maNV>
+    <tenNV>Trang1</tenNV>
+    <ngaysinh>10/12/2024</ngaysinh>
+    <gioitinh>nữ </gioitinh>
+    <diachi>qtri</diachi>
+    <email>trang1@gmail.com</email>
+    <sdt>1231231234</sdt>
   </NhanVienNhaHang>
 </NhanVienNhaHangs>

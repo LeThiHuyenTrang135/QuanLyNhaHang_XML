@@ -35,6 +35,7 @@
             button3 = new Button();
             button1 = new Button();
             grvHoaDon = new DataGridView();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)grvHoaDon).BeginInit();
             SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             // 
             btnTimKiem.BackColor = Color.DarkSeaGreen;
             btnTimKiem.ForeColor = Color.Black;
-            btnTimKiem.Location = new Point(222, 205);
+            btnTimKiem.Location = new Point(235, 205);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(99, 35);
             btnTimKiem.TabIndex = 3;
@@ -82,7 +83,7 @@
             // 
             button3.BackColor = Color.Yellow;
             button3.ForeColor = Color.Black;
-            button3.Location = new Point(705, 205);
+            button3.Location = new Point(613, 205);
             button3.Name = "button3";
             button3.Size = new Size(99, 35);
             button3.TabIndex = 4;
@@ -94,7 +95,7 @@
             // 
             button1.BackColor = Color.Crimson;
             button1.ForeColor = Color.Black;
-            button1.Location = new Point(451, 205);
+            button1.Location = new Point(434, 205);
             button1.Name = "button1";
             button1.Size = new Size(99, 35);
             button1.TabIndex = 5;
@@ -111,6 +112,18 @@
             grvHoaDon.Size = new Size(923, 348);
             grvHoaDon.TabIndex = 6;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.DodgerBlue;
+            button2.ForeColor = Color.Black;
+            button2.Location = new Point(791, 205);
+            button2.Name = "button2";
+            button2.Size = new Size(114, 35);
+            button2.TabIndex = 7;
+            button2.Text = "Xuất hóa đơn";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // LichSuBanHang
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -118,6 +131,7 @@
             BackgroundImage = Properties.Resources.backQLsanPham;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1033, 633);
+            Controls.Add(button2);
             Controls.Add(grvHoaDon);
             Controls.Add(button1);
             Controls.Add(button3);
@@ -141,5 +155,6 @@
         private Button button3;
         private Button button1;
         private DataGridView grvHoaDon;
+        private Button button2;
     }
 }

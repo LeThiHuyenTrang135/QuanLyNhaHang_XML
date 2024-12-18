@@ -35,15 +35,16 @@
             // 
             richTextBoxContent.Location = new Point(3, 12);
             richTextBoxContent.Name = "richTextBoxContent";
-            richTextBoxContent.Size = new Size(761, 392);
+            richTextBoxContent.Size = new Size(933, 392);
             richTextBoxContent.TabIndex = 0;
             richTextBoxContent.Text = "";
+            richTextBoxContent.TextChanged += richTextBoxContent_TextChanged;
             // 
             // InHoaDon
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(771, 406);
+            ClientSize = new Size(993, 406);
             Controls.Add(richTextBoxContent);
             Name = "InHoaDon";
             Load += InHoaDon_Load;

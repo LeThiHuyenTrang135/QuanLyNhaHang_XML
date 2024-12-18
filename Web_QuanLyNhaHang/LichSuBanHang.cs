@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
 using System.Drawing.Printing;
+using Excel = Microsoft.Office.Interop.Excel;
+
 using Web_QuanLyNhaHang.Model;
 
 namespace Web_QuanLyNhaHang
@@ -160,6 +162,48 @@ namespace Web_QuanLyNhaHang
         private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
         {
             e.Graphics.DrawString(printContent, new Font("Arial", 12), Brushes.Black, new PointF(100, 100));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Tạo ứng dụng Excel
+            Excel.Application excelApp = new Excel.Application();
+            excelApp.Visible = false; // Ẩn ứng dụng Excel khi tạo file
+
+            // Tạo workbook và worksheet
+            Excel.Workbook workbook = excelApp.Workbooks.Add();
+            Excel.Worksheet worksheet = (Excel.Worksheet)workbook.Worksheets[1];
+
+            // Đặt tiêu đề cho file Excel
+            worksheet.Cells[1, 1] = "STT";
+            worksheet.Cells[1, 2] = "Mã Hóa Đơn";
+            worksheet.Cells[1, 3] = "Mã Món Ăn";
+            worksheet.Cells[1, 4] = "Tên Món Ăn";
+            worksheet.Cells[1, 5] = "Số Lượng";
+            worksheet.Cells[1, 6] = "Đơn Giá";
+            worksheet.Cells[1, 7] = "Thành Tiền";
+            worksheet.Cells[1, 8] = "Ngày Tạo";
+
+            // Ghi dữ liệu từ DataGridView vào Excel
+            int rowExcel = 2; // Bắt đầu từ hàng thứ 2 trong Excel
+            foreach (DataGridViewRow row in grvHoaDon.Rows)
+            {
+                if (row.IsNewRow) continue;
+
+                for (int i = 0; i < grvHoaDon.Columns.Count; i++)
+                {
+                    worksheet.Cells[rowExcel, i + 1] = row.Cells[i].Value?.ToString();
+                }
+                rowExcel++;
+            }
+
+            // Lưu file Excel
+            string savePath = "LichSuBanHang.xlsx";
+            workbook.SaveAs(savePath);
+            workbook.Close();
+            excelApp.Quit();
+
+            MessageBox.Show($"Dữ liệu đã được xuất ra file {savePath}", "Xuất Excel Thành Công", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
